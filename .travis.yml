@@ -1,4 +1,4 @@
-sduo: required
+sudo: required
 services: 
   - docker
 
