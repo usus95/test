@@ -5,4 +5,12 @@ services:
 script: 
  - docker build -t usus95/node .
  - docker images usus95/node
- 
+
+before_deploy: 
+ - docker login -u usus95 -p Fucker#95
+
+deploy: 
+ provider: script
+ script: docker push usus95/node
+ on
+  branch: master
