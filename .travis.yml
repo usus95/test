@@ -3,6 +3,6 @@ services:
   - docker
 
 script: 
- - docker build -t usama/node .
- - docker images usama/node
+ - docker build -t usus95/node .
+ - docker images usus95/node
  
