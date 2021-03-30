@@ -1,0 +1,8 @@
+sduo: required
+services: 
+  - docker
+
+script: 
+ - docker build -t usama/node .
+ - docker images usama/node
+ 
