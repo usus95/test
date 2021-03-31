@@ -12,5 +12,5 @@ before_deploy:
 deploy: 
  provider: script
  script: docker push usus95/node
- on
+ on:
   branch: master
