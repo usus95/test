@@ -7,7 +7,7 @@ script:
  - docker images usus95/node
 
 before_deploy: 
- - docker login -u <usus95> -p <Fucker#95>
+ - docker login -u usus95 -p Fucker#95
 
 deploy: 
  provider: script
